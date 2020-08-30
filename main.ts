@@ -1,5 +1,5 @@
-let LED_X = 0
-let LED_Y = 0
+let LED_X = 4
+let LED_Y = 4
 basic.forever(function () {
     led.plot(LED_X, LED_Y)
     basic.pause(500)
